@@ -1,4 +1,4 @@
-/// @func interpreter_advance
+/// @func interpreter_lexer_advance
 /// @args id
 var interpreter = argument0;
 show_debug_message("Interpreter advance");

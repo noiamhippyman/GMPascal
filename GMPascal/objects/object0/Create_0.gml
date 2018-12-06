@@ -1,17 +1,11 @@
-var text = "50 + 150"
+text = "9 / 4";
 interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_expr(interpreter)));
-
-text = "50 - 150"
+show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
+text = "9 + 4 - 4";
 interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_expr(interpreter)));
-
-text = "150 / 50"
+show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
+text = "9 * 4";
 interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_expr(interpreter)));
-
-text = "3 * 50"
-interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_expr(interpreter)));
+show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
 
 game_end();
