@@ -1,4 +1,4 @@
-var text = @"1+9";
+var text = @"4000000 + 123456";
 
 interpreter = interpreter_init(text);
 show_message(interpreter_expr(interpreter));
