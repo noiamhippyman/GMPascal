@@ -1,5 +1,5 @@
 enum enTokenType {
-	INTEGER,PLUS,EOF
+	INTEGER,PLUS,MINUS,MULTIPLY,DIVIDE,EOF
 }
 enum enToken {
 	Type,Value

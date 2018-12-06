@@ -2,7 +2,7 @@
 /// @args id,tokenType
 var interpreter = argument0;
 var tokenType = argument1;
-
+show_debug_message("Interpreter eat");
 var currentToken = interpreter[enInterpreter.CurrentToken];
 
 if (currentToken[enToken.Type] == tokenType) {
