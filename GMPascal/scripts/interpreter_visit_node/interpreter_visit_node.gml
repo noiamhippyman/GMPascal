@@ -13,6 +13,10 @@ switch (node[0]) {
 		return interpreter_visit_num(interpreter,node);
 	break;
 	
+	case enNodeType.UnaryOp:
+		return interpreter_visit_unary_op(interpreter,node);
+	break;
+	
 	default:
 		show_error("INTERPRETER ERROR::No visit method found",true);
 	break;

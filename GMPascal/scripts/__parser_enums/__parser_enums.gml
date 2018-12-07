@@ -1,5 +1,5 @@
 enum enNodeType {
-	BinOp,Num
+	BinOp,Num,UnaryOp
 }
 
 enum enBinOp {
@@ -8,6 +8,10 @@ enum enBinOp {
 
 enum enNum {
 	Type,Token,Value
+}
+
+enum enUnaryOp {
+	Type,Token,Op,Expr
 }
 
 enum enParser {

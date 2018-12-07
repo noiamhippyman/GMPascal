@@ -9,7 +9,8 @@
         "233aa8f8-44e2-4890-a757-cbe4c0ce0d2e",
         "cd3c8b32-8a06-4fe0-9447-0018f0970edd",
         "c80fd257-62ea-42c2-a5f2-7f8b7c0e441d",
-        "065cfadd-0bb9-4b90-ba01-76f1e835e9f0"
+        "065cfadd-0bb9-4b90-ba01-76f1e835e9f0",
+        "c2d2fb81-bc39-4c4d-841f-b35c5df483b2"
     ],
     "filterType": "GMScript",
     "folderName": "Interpreter",
