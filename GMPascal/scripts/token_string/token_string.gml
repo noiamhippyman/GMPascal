@@ -8,6 +8,8 @@ switch (token[enToken.Type]) {
 	case enTokenType.SUB: type = "SUB"; break;
 	case enTokenType.MUL: type = "MUL"; break;
 	case enTokenType.DIV: type = "DIV"; break;
+	case enTokenType.LPAREN: type = "LPAREN"; break;
+	case enTokenType.RPAREN: type = "RPAREN"; break;
 	case enTokenType.EOF: type = "EOF"; break;
 }
 var value = token[enToken.Value] == noone ? "noone" : string(token[enToken.Value]);

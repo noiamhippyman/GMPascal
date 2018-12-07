@@ -12,6 +12,7 @@ while (lexer[enLexer.CurrentChar] != noone) {
 		return token_init(enTokenType.INT,lexer_integer(lexer));
 	}
 	
+	/*
 	if (lexer[enLexer.CurrentChar] == "*") {
 		lexer_advance(lexer);
 		return token_init(enTokenType.MUL,"*");
@@ -30,6 +31,34 @@ while (lexer[enLexer.CurrentChar] != noone) {
 	if (lexer[enLexer.CurrentChar] == "-") {
 		lexer_advance(lexer);
 		return token_init(enTokenType.SUB,"-");
+	}
+	*/
+	
+	switch (lexer[enLexer.CurrentChar]) {
+		case "*":
+			lexer_advance(lexer);
+			return token_init(enTokenType.MUL,"*");
+		break;
+		case "/":
+			lexer_advance(lexer);
+			return token_init(enTokenType.DIV,"/");
+		break;
+		case "+":
+			lexer_advance(lexer);
+			return token_init(enTokenType.ADD,"+");
+		break;
+		case "-":
+			lexer_advance(lexer);
+			return token_init(enTokenType.SUB,"-");
+		break;
+		case "(":
+			lexer_advance(lexer);
+			return token_init(enTokenType.LPAREN,"(");
+		break;
+		case ")":
+			lexer_advance(lexer);
+			return token_init(enTokenType.RPAREN,")");
+		break;
 	}
 	
 	lexer_error();
