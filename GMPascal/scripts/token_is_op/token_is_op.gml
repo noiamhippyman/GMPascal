@@ -2,14 +2,12 @@
 /// @args id
 var token = argument0;
 
-var result = false;
-switch (token[enToken.Type]) {
-	case enTokenType.PLUS:
-	case enTokenType.MINUS:
-	case enTokenType.MULTIPLY:
-	case enTokenType.DIVIDE:
-		result = true;
-	break;
+switch (token_get_type(token)) {
+	case enTokenType.ADD:
+	case enTokenType.SUB:
+	case enTokenType.MUL:
+	case enTokenType.DIV:
+	return true;
 }
 
-return result;
+return false;

@@ -1,5 +1,5 @@
 {
-    "id": "e9a81e9e-7ab9-435f-9aeb-9686c477afdc",
+    "id": "f62d929c-f983-4e54-854c-e4591bbf3878",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "token_init",

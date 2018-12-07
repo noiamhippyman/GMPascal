@@ -1,3 +1,3 @@
 enum enInterpreter {
-	Text,Pos,CurrentToken,CurrentChar
+	Lexer,CurrentToken
 }

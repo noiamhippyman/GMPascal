@@ -1,8 +1,8 @@
 {
-    "id": "7eb80ad4-e995-4b77-b401-a4ee5107f647",
+    "id": "468fa2f8-275f-4e78-872f-425956295914",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "__interpreter_enums",
+    "name": "lexer_advance",
     "IsCompatibility": false,
     "IsDnD": false
 }

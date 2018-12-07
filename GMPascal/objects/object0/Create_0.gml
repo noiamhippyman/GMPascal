@@ -1,11 +1,7 @@
-text = "9 / 4";
-interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
-text = "9 + 4 - 4";
-interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
-text = "9 * 4";
-interpreter = interpreter_init(text);
-show_message(text + ": " + string(interpreter_parser_expr(interpreter)));
+text = "14 + 2 * 3 - 6 / 2";
+lexer = lexer_init(text);
+interpreter = interpreter_init(lexer);
+show_message(interpreter_expr(interpreter));
+
 
 game_end();
