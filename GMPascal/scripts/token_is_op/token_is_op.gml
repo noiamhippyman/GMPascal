@@ -1,13 +1,11 @@
 /// @func token_is_op
-/// @args id
-var token = argument0;
+/// @args id,[ops]
+var token = argument[0];
+var ops = argument_count == 2 ? argument[1] : [enTokenType.ADD,enTokenType.SUB,enTokenType.MUL,enTokenType.DIV];
+var type = token_get_type(token);
 
-switch (token_get_type(token)) {
-	case enTokenType.ADD:
-	case enTokenType.SUB:
-	case enTokenType.MUL:
-	case enTokenType.DIV:
-	return true;
+for (var i = 0; i < array_length_1d(ops); ++i) {
+	if (type == ops[i]) return true;
 }
 
 return false;
