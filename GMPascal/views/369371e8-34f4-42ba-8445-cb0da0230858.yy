@@ -6,11 +6,10 @@
     "children": [
         "7eb80ad4-e995-4b77-b401-a4ee5107f647",
         "6e30edd2-460d-4ebb-9ae3-1e6acd6da598",
-        "cff276d6-7315-4547-8676-9e83aef17d7a",
-        "c8507c51-0ba1-4e82-8e56-c754d0986c52",
-        "6242f142-fd32-4ef4-a35b-c6841695717f",
-        "d4bda7e2-8d5a-4b5d-98ee-60218d108400",
-        "e29ac713-326d-4a1e-9d1b-95c09b35ed22"
+        "233aa8f8-44e2-4890-a757-cbe4c0ce0d2e",
+        "cd3c8b32-8a06-4fe0-9447-0018f0970edd",
+        "c80fd257-62ea-42c2-a5f2-7f8b7c0e441d",
+        "065cfadd-0bb9-4b90-ba01-76f1e835e9f0"
     ],
     "filterType": "GMScript",
     "folderName": "Interpreter",

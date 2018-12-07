@@ -1,10 +1,9 @@
 /// @func interpreter_init
-/// @args lexer
-var lexer = argument0;
+/// @args parser
+var parser = argument0;
 
 var interpreter;
 
-interpreter[enInterpreter.Lexer] = lexer;
-interpreter[enInterpreter.CurrentToken] = lexer_get_next_token(lexer);
+interpreter[enInterpreter.Parser] = parser;
 
 return interpreter;
